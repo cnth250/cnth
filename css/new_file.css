@@ -1,0 +1,49 @@
+  
+	*{
+        margin:0;
+		padding:0;
+		list-style: none;
+		text-decoration: none;
+    }
+    body{
+        background: #ccc;
+    }
+    #logo{
+        float: left;
+		margin:2px 5px 0 0;
+    }
+    form{
+        background: white;
+		float: left;
+    }
+    #search-input{
+        outline:none;
+		width:500px;
+		height: 65px;
+		line-height: 45px;
+		float: left;
+		border:0;
+		
+    }
+    #search-button{
+      
+		width:65px;
+		height:65px;
+		float: left;
+		border:0;
+		
+		margin:2px 5px 0 0;
+		
+    }
+    #wrapper{
+		background-color: #F4F4F4;
+		border: #000000 1px solid;
+        position: absolute;
+		left: 29%;
+		top:200px;
+    }
+	#wz{
+		font-size: 5rem;
+		font-weight: 20px;
+		
+	}
