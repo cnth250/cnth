@@ -10,40 +10,251 @@
     }
     #logo{
         float: left;
-		margin:2px 5px 0 0;
+		
+			margin: 10px;
     }
+	
+	
     form{
         background: white;
 		float: left;
     }
     #search-input{
         outline:none;
-		width:500px;
-		height: 65px;
-		line-height: 45px;
+		width:400px;
+		height: 50px;
+		line-height: 60px;
 		float: left;
-		border:0;
-		
+		border:chartreuse;
+		border-radius: 50px;
     }
     #search-button{
-      
-		width:65px;
-		height:65px;
+		width:50px;
+		height:30px;
 		float: left;
-		border:0;
-		
-		margin:2px 5px 0 0;
-		
+		border-radius: 50px;
+		border: #000000 1px solid;
+		margin: 10px;
     }
+	#search-button:hover{
+		background-color: darkgray;
+	}
     #wrapper{
 		background-color: #F4F4F4;
-		border: #000000 1px solid;
+		border: 0;
         position: absolute;
-		left: 29%;
-		top:200px;
+		top: 200px;
+		height: 50px;
+		padding: 5px 0 ;
+		border-radius: 50px;
+		background-clip: padding-box;
+		width: 580px;
+		margin-left: 465.5px;	
     }
 	#wz{
-		font-size: 5rem;
+		font-size: 40px;
 		font-weight: 20px;
+		padding:20px 0px;
+		padding-left: 40px;
+		width: 200px;
+		top: auto;
+		position: sticky;
+		background-color: #A52A2A;
+		border-radius: 30px;
+		opacity: 0.7;
+	}
+	.arr{
+		color: #000000;
+	}
+	.arr:hover{
+		color: brown;
+	}
+	#logo_wz1{
+		font-size: 70px;
+		margin: -50px auto;
+	}
+	#xingwen_1{
+		border-bottom:1px solid black ;
+		border-bottom-width: 100%;
+		width: 100%;
+		height: 20px;
+		margin: 20px auto 0 auto;
 		
+	}
+	#img_guodong{
+		border: 2px solid #CCCCCC;
+		width: 400px;
+		height: 200px;
+		margin:10px; 
+		padding: 2px;
+		border-radius: 10px;
+		background-color: #CCCCCC;
+		float: left;
+		
+		
+	}
+	.ul li{
+		height: 20px;
+		float: left;
+		padding:0px 10px 0 10px  ;
+		border:0;
+		padding:0 57px;
+		font-size: 15px;
+		color: #000000;
+		font-weight: bold;
+		border: 0;
+		border-radius: 10px;
+		background-color: #CCCCCC;
+		
+	}
+	
+	.ul li:hover{
+		color: #CCCCCC;
+		background-color: #A9A9A9;
+	}
+	#list_shouye{
+		margin: 20px auto 0;
+		width: auto;
+		height: 75px;
+		border: 0;
+		background-color: #A9A9A9;
+		padding: 20px;
+		border-radius: 10px;
+		
+	}
+	td li{
+		width: auto;
+		height: 20px;
+		padding:5px 67px;
+		
+	}
+	li a{
+		color: #000000;
+		
+	}
+	li a:hover{
+		color: blue;
+	}
+	#botton1{
+		width: 80%;
+		height: 800px;
+		margin: 0 auto;
+		background-color: #F4F4F4;
+		padding: 10px;
+		border-radius: 10px;
+		
+	}
+	
+
+	
+	.marquee_guoyi p{
+		font-size: 100px;
+	}
+	#chajian2 img,#chajian3 img{
+		width: 365px;
+		height: 150px;
+	}
+	#chajian6 img{
+		width: 150px;
+		height: 200px;
+		float: left;
+		}
+	#chajian6 a{
+		float: left;
+		width: 150px;
+		height: 200px;
+		
+	}	
+	
+	#chajian5 img{
+		width: 300px;
+		height: 150px;
+		
+	}
+	#chajian7 img{
+		width: 200px;
+		height: 150px;
+	}
+	.img_fu{
+		width: 100%;
+		height: 500px;
+		border: #CCCCCC 2px solid;
+		float: left;
+		
+		font-weight: 700;
+	}
+	#chajian2,#chajian3{
+		width: 365px;
+		height: 200px;
+		border: #CCCCCC 2px solid;
+		padding: 2px;
+		background-color: #CCCCCC;
+		border-radius: 10px;
+		margin: 10px;
+		float: right;
+	}
+	#chajian6{
+		width: 300px;
+		height: 200px;
+		border: #CCCCCC 0;
+		padding: 2px;
+		background-color: #CCCCCC;
+		border-radius: 10px;
+		margin: 10px;
+		float: right;
+	}
+	#chajian5,#chajian6{
+		width: 300px;
+		height: 200px;
+		border: #CCCCCC 2px solid;
+		padding: 2px;
+		background-color: #CCCCCC;
+		border-radius: 10px;
+		margin: 10px;
+		float: right;
+	}
+	#chajian4{
+		background-image:url(../img/cj4.jfif) ;
+		width: 300px;
+		height: 200px;
+		border: 0;
+		padding: 2px;
+		
+		border-radius: 10px;
+		margin: 10px;
+		float: right;
+	}
+	#chajian7{
+		width: 200px;
+		height: 200px;
+		border: #CCCCCC 2px solid;
+		padding: 2px;
+		background-color: #CCCCCC;
+		border-radius: 10px;
+		margin: 10px;
+		float: right;
+	}
+	#chajian4 a{
+		color: #0000FF;
+		
+	}
+	#chajian1 a,#chajian2 a,#chajian3 a,#chajian5 a,#chajian6 a,#chajian7 a{
+		color: #000000;
+	}
+	#chajian1 a:hover,#chajian2 a:hover,#chajian3 a:hover,#chajian4 a:hover,#chajian5 a:hover,#chajian6 a:hover,#chajian7 a:hover{
+		text-decoration: underline;
+	}
+	#banquan{
+		width: 100%;
+		height: 100px;
+		border: 5px black solid;
+		background-color: #000000;
+		margin:505px auto 0;
+		border-radius: 10px;
+		color: #F4F4F4;
+		text-align: center;
+		vertical-align: auto;
+	}
+	#banquan p{
+		margin: 30px;
 	}
